@@ -9,6 +9,8 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -53,8 +55,7 @@ ol {
 /* Паттерн */
 
 .content {
-  width: 1140px;
-  margin: 0 auto;
+
   display: flex;
   gap: 30px;
 }
@@ -234,6 +235,8 @@ ol {
   gap: 15px;
 }
 
+
+
 /* Скролл */
 
 /* ТЕМПЛЕЙТЫ */
@@ -243,6 +246,10 @@ ol {
   overflow-y: scroll;
   block-size: 298px;
   scrollbar-width: none;
+}
+
+.content__list::-webkit-scrollbar {
+  display: none;
 }
 
 .content__list-item:not(:last-child) {
@@ -255,6 +262,7 @@ ol {
   text-decoration: none; 
   color: #FFF;
 }
+
 
 .content__card-link:active {
   background-color: #545050;
