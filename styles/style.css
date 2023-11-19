@@ -69,7 +69,7 @@ ol {
 .result__video-container {
   position: relative;
   inline-size: 711px;
-  height: 386 px;
+  height: 386px;
   margin: 0 0 16px;
 }
 
@@ -158,7 +158,7 @@ ol {
   border: 1px solid #FFF;
   inline-size: 19px;
   block-size: 19px;
-
+  margin-right: 5px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -236,8 +236,6 @@ ol {
   gap: 15px;
 }
 
-/* Не могу понять какой отступ между элементами, если не 15px */
-
 /* Скролл */
 
 /* ТЕМПЛЕЙТЫ */
@@ -258,7 +256,6 @@ ol {
   text-decoration: none; 
   color: #FFF;
 }
-
 
 .content__card-link:active {
   background-color: #545050;
